@@ -20,13 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp_netiapps2026' );
+// define( 'DB_NAME', 'wp_netiapps2026' );
+define( 'DB_NAME', 'wp_2026_db' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+// define( 'DB_USER', 'root' );
+define( 'DB_USER', 'wp_user' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'passworD@123' );
+// define( 'DB_PASSWORD', 'passworD@123' );
+define( 'DB_PASSWORD', 'wp2026db' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
