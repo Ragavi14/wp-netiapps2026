@@ -96,6 +96,8 @@ define('FS_METHOD','direct');
 define('WP_MEMORY_LIMIT', '256M');
 define('WP_MAX_MEMORY_LIMIT', '256M');
 
+define('WP_IMAGE_EDITORS', ['WP_Image_Editor_Imagick']);
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
