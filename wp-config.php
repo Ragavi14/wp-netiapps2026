@@ -96,7 +96,7 @@ define('FS_METHOD','direct');
 define('WP_MEMORY_LIMIT', '256M');
 define('WP_MAX_MEMORY_LIMIT', '256M');
 
-define('WP_IMAGE_EDITORS', ['WP_Image_Editor_GD']);
+define('WP_IMAGE_EDITORS', ['WP_Image_Editor_Imagick', 'WP_Image_Editor_GD']);
 
 define('BIG_IMAGE_SIZE_THRESHOLD', false);
 
