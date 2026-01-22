@@ -93,6 +93,8 @@ define( 'WP_DEBUG', false );
 /* Add any custom values between this line and the "stop editing" line. */
 
 define('FS_METHOD','direct');
+define('WP_MEMORY_LIMIT', '256M');
+define('WP_MAX_MEMORY_LIMIT', '256M');
 
 /* That's all, stop editing! Happy publishing. */
 
