@@ -169,3 +169,5 @@ function allow_svg_upload($mimes) {
     return $mimes;
 }
 add_filter('upload_mimes', 'allow_svg_upload');
+// Disable WordPress automatic downscaling for large images
+add_filter('big_image_size_threshold', '__return_false');
