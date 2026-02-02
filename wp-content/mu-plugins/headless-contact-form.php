@@ -127,23 +127,6 @@ add_action('rest_api_init', function () {
 });
 
 
-// add_action('phpmailer_init', function ($phpmailer) {
-
-//     $phpmailer->isSMTP();
-//     $phpmailer->Host       = 'smtp.gmail.com';
-//     $phpmailer->SMTPAuth   = true;
-//     $phpmailer->Port       = 587;
-//     $phpmailer->Username   = 'ragavi2002l@gmail.com'; // Gmail ID
-//     $phpmailer->Password   = 'mnmviejppwwezmnv';     // App password (NO SPACES)
-//     $phpmailer->SMTPSecure = 'tls';
-
-//     $phpmailer->From       = 'ragavi2002l@gmail.com';
-//     $phpmailer->FromName   = 'Netiapps Contact';
-
-//     $phpmailer->SMTPDebug  = 2;
-//     $phpmailer->Debugoutput = 'error_log';
-// });
-
 add_action('phpmailer_init', function ($phpmailer) {
 
     $phpmailer->isSMTP();
@@ -157,7 +140,7 @@ add_action('phpmailer_init', function ($phpmailer) {
 
     // ✅ VERY IMPORTANT
     $phpmailer->From       = 'noreply@wlsindia.in';
-    $phpmailer->FromName   = 'Netiapps Contact';
+    $phpmailer->FromName   = 'Netiapps';
 
     // Debug (keep during testing)
     // $phpmailer->SMTPDebug  = 2;
@@ -170,7 +153,7 @@ add_filter('wp_mail_from', function () {
 });
 
 add_filter('wp_mail_from_name', function () {
-    return 'Netiapps Contact';
+    return 'Netiapps';
 });
 
 add_action('wp_mail_failed', function ($error) {
