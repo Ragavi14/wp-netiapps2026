@@ -2,7 +2,7 @@
 
 function setup_careersList() {
     register_post_type("CareersList", [
-        "label" => "Careers List",
+        "label" => "Careers",
         "labels" => [
             "name" => "CareersList",
             "singular_name" => "CareersList",
