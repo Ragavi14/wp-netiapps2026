@@ -42,7 +42,7 @@ add_action('rest_api_init', function () {
         ], 400);
     }
 
-    $secret = '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe';
+    $secret = '6LcoXl8sAAAAAJTYe_o_MvxJ0iz9O9hcP6R16wUw';
 
     $response = wp_remote_post(
         'https://www.google.com/recaptcha/api/siteverify',
