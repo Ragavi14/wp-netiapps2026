@@ -113,9 +113,8 @@ add_action('rest_api_init', function () {
 
     // ---------- Mail ----------
     $to = [
-        'ragavi@netiapps.com',
-        // 'ragavi2002l@gmail.com',
-        'sridhar@netiapps.com'
+        'darshana@netiapps.com',
+        'manoj.p@netiapps.com'
     ];
     
     $subject = "New Career Application – $role";
