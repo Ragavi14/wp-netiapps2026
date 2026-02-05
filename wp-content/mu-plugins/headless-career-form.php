@@ -68,6 +68,8 @@ add_action('rest_api_init', function () {
     $phone = sanitize_text_field($_POST['phone'] ?? '');
     $city  = sanitize_text_field($_POST['city'] ?? '');
     $role  = sanitize_text_field($_POST['role'] ?? '');
+    $experience  = sanitize_text_field($_POST['experience'] ?? '');
+    $notice  = sanitize_text_field($_POST['notice'] ?? '');
 
     if (!$name || !$email || !$role) {
         return new WP_REST_Response([
@@ -125,6 +127,8 @@ Email : $email
 Phone : $phone
 City  : $city
 Role  : $role
+Experience : $experience
+Notice Period : $notice
 ";
 
     $headers = [
