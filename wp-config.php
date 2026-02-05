@@ -40,6 +40,9 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+/** Add Google Translate API key */
+define('GOOGLE_TRANSLATE_API_KEY', 'AIzaSyAP9h-BHz-RAmH2pDZUbyrpe0e3R0H5xQQ');
+
 /**#@+
  * Authentication unique keys and salts.
  *
